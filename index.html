@@ -23,46 +23,14 @@
       }
     </style>
   </head>
-  <script>
-    var age = 21;
 
-    if(age > 21) {
-      console.log("o usuário pode acessar o site");
-    }
-
-    if(age <= 20){
-      console.log("o usuario nao pode acessar o site");
-    }
-let user;
-
-function yourName() {
-  user = prompt("When was Venezia created?");
-  return document.write(user);
-}
-
-function guessANumber() {
-  let answer;
-  while (answer != 421) {
-    answer = prompt("Choose an option 421 or 532");
-
-    if (answer != 532) {
-      alert("Try Again");
-    } else {
-      alert("Congratulations, you are correct!");
-    }
-  }
-}
-
-    console.log("Our Visitors name is " + siteVistor);
-    alert("Welcome to my Website " + siteVistor);
-  </script>
   <body>
     <header>
       <div style="display: flex; flex-direction: row; align-items: center" class="header-conatainer"></div>
       <div class="logo-header">
         <img style="width: 45px" src="image/Italy.logo.webp" class="img-logo-header" alt="logo-Italy" />
       </div>
-      <h1 style="text-align: center; background-color: green">History of Venice</h1>
+      <h1 style="text-align: center; background-color: green">History of Veneza</h1>
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
@@ -95,6 +63,17 @@ function guessANumber() {
         Website created by <a href="https://github.com/danielquilo" target="_blank"><button>Daniel Quilo</button></a>
       </p>
     </footer>
+    <script>
+      let siteVistor = prompt("What is your name?");
+      console.log("Our visitors name is " + siteVistor);
+      alert("Welcome to my Site " + siteVistor);
+      let favFood = prompt("what is your fav food?");
+      console.log("....." + favFood);
+      alert("Great " + siteVistor + ", I also like " + favFood);
+      let holiday = prompt("what is your favourite holdiay destination?");
+      console.log(".......");
+      alert("That's incredible " + siteVisitor + ", I love eating " + favFood + "in " + holiday);
+    </script>
   </body>
   <script src="button.js"></script>
 </html>
