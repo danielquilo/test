@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="History Veneza" content="Veneza-Italian" />
+    <link rel="shortcut icon" href="image/Italy.logo.webp" type="image/x-icon" />
+
+    <style>
+      * {
+        margin: 2 auto;
+        padding: 2;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      li {
+        list-style: nome;
+        display: inline-block;
+        margin: 0 0.5rem;
+      }
+    </style>
+  </head>
+  <script>
+    var age = 21;
+
+    if(age > 21) {
+      console.log("o usuário pode acessar o site");
+    }
+
+    if(age <= 20){
+      console.log("o usuario nao pode acessar o site");
+    }
+let user;
+
+function yourName() {
+  user = prompt("When was Venezia created?");
+  return document.write(user);
+}
+
+function guessANumber() {
+  let answer;
+  while (answer != 421) {
+    answer = prompt("Choose an option 421 or 532");
+
+    if (answer != 532) {
+      alert("Try Again");
+    } else {
+      alert("Congratulations, you are correct!");
+    }
+  }
+}
+
+    console.log("Our Visitors name is " + siteVistor);
+    alert("Welcome to my Website " + siteVistor);
+  </script>
+  <body>
+    <header>
+      <div style="display: flex; flex-direction: row; align-items: center" class="header-conatainer"></div>
+      <div class="logo-header">
+        <img style="width: 45px" src="image/Italy.logo.webp" class="img-logo-header" alt="logo-Italy" />
+      </div>
+      <h1 style="text-align: center; background-color: green">History of Venice</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="'">Tickets</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main-container"></div>
+      <section>
+        <div>
+          <img style="width: 300px; display: flex; align-items: center" src="image/home.jpg" alt="Veneza" />
+
+          <p>
+            The thousand year existence of the Venetian Republic can be roughly divided into three main periods: the very beginning, when a population of bargemen became a seagoing nation sailing, trading and fighting in many parts of the
+            Mediterranean; a second period of extraordinary prosperity which saw the consolidation of their power and government followed by the expansion towards the Italian mainland; a third and final one at the turn of the 16th C when we see the
+            beginning of a decline and decadence which eventually culminated with the fall of the Republic by Napoleon in 1797.
+          </p>
+        </div>
+
+        <h2 style="background-image: linear-gradient(white, green); text-align: center">Explore Veneza</h2>
+        <p></p>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container"></div>
+      <p style="font-size: 20px; text-align: center; background-image: linear-gradient(to top, green, white)">
+        Website created by <a href="https://github.com/danielquilo" target="_blank"><button>Daniel Quilo</button></a>
+      </p>
+    </footer>
+  </body>
+  <script src="button.js"></script>
+</html>
